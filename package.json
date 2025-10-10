@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kiwiowndaniel27.github.io/KiwiOwnDaniel27",
+  "homepage": "https://TU_USUARIO.github.io/NOMBRE_DEL_REPO",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
 
@@ -8,6 +8,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
