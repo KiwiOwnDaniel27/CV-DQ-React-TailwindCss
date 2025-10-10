@@ -30,14 +30,14 @@ function App() {
           </div>
 
         </div>
-        <img src="assets/perfil-img.webp" alt="Hero Image" className="rounded-b-full w-[500px] md:ml-auto
+        <img src={DataImage.HeroImage} alt="Hero Image" className="rounded-b-full w-[500px] md:ml-auto
         animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
       </div>
 
       <div className="about mt-32 py-10" id="acercade">
         <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
           data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-          <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md sm:hidden" loading="lazy" />
+          <img src={DataImage.HeroImage} alt="Imagee" alt="Image" className="w-12 rounded-md sm:hidden" loading="lazy" />
           <p className="text-base/loose mb-10">Hola, me presento, Soy Daniel Quiguango, desarrollador web Jr especializado en diseño UI/IX
             y en creación de productos digitales. Estoy muy consiente que el diseño y la funcionalidad de una
             página web o App deben ir muy de la mano con la experiencia del Usuario, y que está sea óptima,
