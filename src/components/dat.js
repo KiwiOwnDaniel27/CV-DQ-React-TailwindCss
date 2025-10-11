@@ -4,4 +4,4 @@ const Imag = {
     LogoImage,
 };
 
-export default Imag;
+export default Img;
