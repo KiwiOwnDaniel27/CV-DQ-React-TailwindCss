@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://kiwiowndaniel27.github.io/CV-2025-2026", 
+  base: "https://kiwiowndaniel27.github.io/Cv-25-26-React-Tailwind"
 })
 
