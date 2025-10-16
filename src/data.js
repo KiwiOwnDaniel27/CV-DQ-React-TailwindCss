@@ -15,9 +15,12 @@ import Tools6 from "/assets/tools/js.png";
 import Tools7 from "/assets/tools/reactjs.png";
 import Tools8 from "/assets/tools/tailwind.png";
 import Tools9 from "/assets/tools/c++.png";
-import Tools10 from "/assets/tools/figma.png";
-import Tools11 from "/assets/tools/canva.png";
-import Tools12 from "/assets/tools/ai.png";
+import Tools10 from "/assets/tools/python.webp";
+import Tools11 from "/assets/tools/swift.png";
+import Tools12 from "/assets/tools/chatia.jpg";
+import Tools13 from "/assets/tools/figma.png";
+import Tools14 from "/assets/tools/canva.png";
+import Tools15 from "/assets/tools/ai.png";
 
 export const listTools = [
   {
@@ -86,30 +89,52 @@ export const listTools = [
   {
     id: 10,
     gambar: Tools10,
-    nama: "Figma",
-    ket: "Aplicación de diseño",
-    dad: "900",
+    nama: "Python",
+    ket: "Lenguaje de programación",
+    dad: "1000",
   },
   {
     id: 11,
     gambar: Tools11,
-    nama: "Canva",
-    ket: "Aplicación de diseño",
-    dad: "1000",
+    nama: "Swift",
+    ket: "Lenguaje de programación",
+    dad: "1100",
   },
   {
     id: 12,
     gambar: Tools12,
-    nama: "Adobe Illustrator",
+    nama: "IA",
+    ket: "Inteligencia artificial",
+    dad: "1200",
+  },
+  {
+    id: 13,
+    gambar: Tools13,
+    nama: "Figma",
+    ket: "Aplicación de diseño",
+    dad: "1200",
+  },
+  {
+    id: 14,
+    gambar: Tools14,
+    nama: "Canva",
     ket: "Aplicación de diseño",
     dad: "1100",
   },
+  {
+    id: 15,
+    gambar: Tools15,
+    nama: "Adobe Illustrator",
+    ket: "Aplicación de diseño",
+    dad: "1100",
+  },  
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.webp";
 import Proyek2 from "/assets/proyek/proyek2.webp";
 import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
+import Proyek5 from "/assets/proyek/proyek4.webp";
 
 export const listProyek = [
   {
@@ -148,4 +173,14 @@ export const listProyek = [
     dad: "500",
     link: "https://www.figma.com/proto/j3IIrdPLj4TMtRrd193VVY/Untitled?node-id=1-2&t=xmtMjPIcPu5FT1Cf-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" ,
   },
+  {
+    id: 5,
+    gambar: Proyek5,
+    nama: "Prototipo App Bancaria",
+    desk: "Prototipo de alta fidelidad para una opción de Pets para una App Bancaria",
+    tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
+    dad: "600",
+    link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=285-1905&t=L0E3PjxUTdmpIEaT-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043&starting-point-node-id=416%3A1648" ,
+  },
+  
 ];
