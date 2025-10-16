@@ -180,6 +180,6 @@ export const listProyek = [
     desk: "Prototipo de alta fidelidad para una opción de Pets para una App Bancaria",
     tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
     dad: "600",
-    link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=695-302&t=tDPL7LDUcsdjTDjn-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043&starting-point-node-id=416%3A1648" ,
+    link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=695-302&t=BDz4UMqLE8Lhgy5J-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043" ,
   },
 ];
