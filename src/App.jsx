@@ -50,15 +50,15 @@ function App() {
             <div className="flex items-center gap-9">
               <div>
                 <h1 className="text-4xl mb-1">
-                  45 <span className="text-violet-500">+</span>
+                  11<span className="text-violet-500">+</span>
                 </h1>
-                <p>Proyecto</p>
+                <p>Proyectos</p>
               </div>
               <div>
                 <h1 className="text-4xl mb-1">
-                  4 <span className="text-violet-500">+</span>
+                  15 <span className="text-violet-500">+</span>
                 </h1>
-                <p>Proyecto</p>
+                <p>Skills</p>
               </div>
             </div>
           </div>
