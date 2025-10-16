@@ -25,7 +25,7 @@ function App() {
           </p>
           <br />
           <div className="flex items-center sm:gap-9 gap-12">
-            <a href="https://drive.google.com/file/d/1TdIS163lAHs98iRVlS9wAnIZyV6jLxgZ/view?usp=sharing" target="alt" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Descargar CV <i className="ri-download-line ri-lg"></i> </a>
+            <a href="https://drive.google.com/file/d/1hwNilKQ78VwznGdv7WCkOk4iEcvctlTi/view?usp=sharing" target="alt" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Descargar CV <i className="ri-download-line ri-lg"></i> </a>
             <a href="#project" className="bg-green-700 p-4 rounded-2xl hover:bg-green-600">Ver Proyectos <i className="ri-arrow-down-line ri-lg"></i> </a>
           </div>
 

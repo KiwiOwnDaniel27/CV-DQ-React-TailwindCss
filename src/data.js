@@ -182,5 +182,4 @@ export const listProyek = [
     dad: "600",
     link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=285-1905&t=L0E3PjxUTdmpIEaT-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043&starting-point-node-id=416%3A1648" ,
   },
-  
 ];
