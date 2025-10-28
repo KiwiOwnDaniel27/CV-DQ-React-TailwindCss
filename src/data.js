@@ -135,6 +135,7 @@ import Proyek2 from "/assets/proyek/proyek2.webp";
 import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
+import Proyek6 from "/assets/proyek/marketing.png";
 
 export const listProyek = [
   {
@@ -181,5 +182,14 @@ export const listProyek = [
     tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
     dad: "600",
     link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=695-302&t=BDz4UMqLE8Lhgy5J-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043" ,
+  },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Portafolio Proyecto de Marketing",
+    desk: "Creación de post para una agencia de viajes con el propósito de atraer nuevos y antiguos clientes potenciales",
+    tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
+    dad: "600",
+    link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
   },
 ];
