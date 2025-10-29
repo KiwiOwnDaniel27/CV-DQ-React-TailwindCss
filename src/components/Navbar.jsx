@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return <div className="navbar py-7 flex items-center justify-between" id="inicio">
         <div className="logo">
-            <h1 className="text-3xl font-bold bg-white text-black p-1 md:bg-transparent
+            <h1 className="text-3xl font-bold text-white p-1 md:bg-transparent
             md:text-white flex items-center">Portafolio
             <img src={DatImag.LogoImage} alt="" className="w-12 mx-6 rounded-md"/>
             </h1>
@@ -30,7 +30,7 @@ const Navbar = () => {
         <ul className={`menu flex items-center sm:gap-10 gap-4 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-0
         md:opacity-100 bg-white/30  backdrop-blur-md p-4 rounded-br-2xl rounded-bl-2xl
         md:bg-transparent transition-all md:transition-none z-40 ${active ? "top-0 opacity-100" : 
-        "top-18 opacity-100"}`}>
+        "top-21 opacity-100"}`}>
             <li>
                 <a href="#acercade" className=" sm:text-1g text-base font-medium">Perfil</a>
             </li>
