@@ -1,5 +1,6 @@
 import DataImage, { listProyek } from "./data";
 import { listTools } from './data';
+import{listCourses} from './data';
 
 
 function App() {
@@ -115,6 +116,39 @@ function App() {
                 </div>
                 <div className="mt-8 text-center">
                   <a href={proyek.link} target="alt" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Website</a>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="courses mt-32 py-10" id="project">
+        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000"
+          data-aos-once="true">
+          Cursos y Certificaciones</h1>
+        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000"
+          data-aos-delay="300" data-aos-once="true">
+          Adjunto algunos cursos que he realizado con certificación. </p>
+        <div className="courses-box mt-14 grid lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-6">
+          {listCourses.map((courses) => (
+            <div key={courses.id} className="p-6 bg-zinc-700 rounded-md" data-aos="fade-up" data-aos-duration="1000"
+              data-aos-delay={courses.dad} data-aos-once="true">
+              <img src={courses.gambar} alt=" Proyect Image" loading="lazy" />
+              <div>
+                <h1 className="text-2xl font-bold my-4">
+                  {courses.nama}
+                </h1>
+                <p className="text-base/loose mb-4">
+                  {courses.desk}
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  {courses.tools.map((tool, index) => (
+                    <p className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold" key={index}>{tool}</p>
+                  ))}
+                </div>
+                <div className="mt-8 text-center">
+                  <a href={courses.link} target="alt" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Website</a>
                 </div>
               </div>
             </div>

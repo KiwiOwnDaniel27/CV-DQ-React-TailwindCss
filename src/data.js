@@ -193,3 +193,87 @@ export const listProyek = [
     link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
   },
 ];
+
+import Courses1 from "/assets/courses/Certification1.jpeg";
+import Courses2 from "/assets/courses/Certification2.jpeg";
+import Courses3 from "/assets/courses/Certification3.jpeg";
+import Courses4 from "/assets/courses/Certification4.jpeg";
+import Courses5 from "/assets/courses/Certification5.jpeg";
+import Courses6 from "/assets/courses/Certification6.jpg";
+import Courses7 from "/assets/courses/Progress1.jpeg";
+import Courses8 from "/assets/courses/Progress2.png";
+
+export const listCourses = [
+  {
+    id: 1,
+    gambar: Courses1,
+    nama: "Certificado Designer UX Google",
+    desk: "Certificado Google Wireframes and Low-Fidelity Prototypes",
+    tools: ["Coursera", "Design", "UX/UI", "Google"],
+    dad: "200",
+    link: "https://www.coursera.org/account/accomplishments/verify/UY5GPQ4JVP2U?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
+  },
+  {
+    id: 2,
+    gambar: Courses2,
+    nama: "Certificado Designer UX Google",
+    desk: "Certificado Google UX Design",
+    tools: ["Coursera", "Design", "UX/UI", "Google"],
+    dad: "300",
+    link: "https://www.coursera.org/account/accomplishments/verify/UM84XWW9SZQA?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
+  },
+  {
+    id: 3,
+    gambar: Courses3,
+    nama: "Certificado Designer UX Google",
+    desk: "Certificado Google User Experience Design",
+    tools: ["Coursera", "Design", "UX/UI", "Google"],
+    dad: "400",
+    link: "https://www.coursera.org/account/accomplishments/verify/24TM5R8HWXLJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
+  },
+  {
+    id: 4,
+    gambar: Courses4,
+    nama: "Certificado Designer UX Google",
+    desk: "Certificado Google Research and Test",
+    tools: ["Coursera", "Design", "UX/UI", "Google"],
+    dad: "500",
+    link: "https://www.coursera.org/account/accomplishments/verify/DLVMJCJNU4PL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
+  },
+  {
+    id: 5,
+    gambar: Courses5,
+    nama: "Certificado Designer UX Google",
+    desk: "Certificado Google High-Fidelity Designs and Prototypes",
+    tools: ["Coursera", "Design", "UX/UI", "Google"],
+    dad: "600",
+    link: "https://www.coursera.org/account/accomplishments/verify/EF4KMFZWKBE3" ,
+  },
+  {
+    id: 6,
+    gambar: Courses6,
+    nama: "Certificado Scrum Master",
+    desk: "Certificado Fundamentos Scrum",
+    tools: ["Soylíder.net", "Scrum", "Liderazgo"],
+    dad: "600",
+    link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
+  },
+  {
+    id: 7,
+    gambar: Courses7,
+    nama: "Progreso Microsoft",
+    desk: "Progreso en Microsoft Analisis de Datos",
+    tools: ["Microsoft", "Python", "Azure", "Power Bi"],
+    dad: "600",
+    link: "https://learn.microsoft.com/es-es/users/danielquiguango-0766/training" ,
+  },
+  {
+    id: 8,
+    gambar: Courses7,
+    nama: "Progreso Microsoft",
+    desk: "Progreso en Microsoft con IA",
+    tools: ["Microsoft", "Python", "IA", "Power Bi"],
+    dad: "600",
+    link: "https://learn.microsoft.com/es-es/users/me/achievements#badges-section" ,
+  },
+];
