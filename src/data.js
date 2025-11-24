@@ -200,7 +200,7 @@ import Courses3 from "/assets/courses/Certification3.jpeg";
 import Courses4 from "/assets/courses/Certification4.jpeg";
 import Courses5 from "/assets/courses/Certification5.jpeg";
 import Courses6 from "/assets/courses/Certification6.jpg";
-import Courses7 from "/assets/courses/Progress1.jpeg";
+import Courses7 from "/assets/courses/Progress1.png";
 import Courses8 from "/assets/courses/Progress2.png";
 
 export const listCourses = [
