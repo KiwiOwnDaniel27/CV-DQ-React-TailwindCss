@@ -210,7 +210,7 @@ export const listCourses = [
     nama: "Certificado Designer UX Google",
     desk: "Certificado Google Wireframes and Low-Fidelity Prototypes",
     tools: ["Coursera", "Design", "UX/UI", "Google"],
-    dad: "800",
+    dad: "100",
     link: "https://www.coursera.org/account/accomplishments/verify/UY5GPQ4JVP2U?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
   },
   {
@@ -219,7 +219,7 @@ export const listCourses = [
     nama: "Certificado Designer UX Google",
     desk: "Certificado Google UX Design",
     tools: ["Coursera", "Design", "UX/UI", "Google"],
-    dad: "900",
+    dad: "200",
     link: "https://www.coursera.org/account/accomplishments/verify/UM84XWW9SZQA?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
   },
   {
@@ -228,7 +228,7 @@ export const listCourses = [
     nama: "Certificado Designer UX Google",
     desk: "Certificado Google User Experience Design",
     tools: ["Coursera", "Design", "UX/UI", "Google"],
-    dad: "1000",
+    dad: "300",
     link: "https://www.coursera.org/account/accomplishments/verify/24TM5R8HWXLJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
   },
   {
@@ -237,7 +237,7 @@ export const listCourses = [
     nama: "Certificado Designer UX Google",
     desk: "Certificado Google Research and Test",
     tools: ["Coursera", "Design", "UX/UI", "Google"],
-    dad: "1100",
+    dad: "400",
     link: "https://www.coursera.org/account/accomplishments/verify/DLVMJCJNU4PL?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" ,
   },
   {
@@ -246,7 +246,7 @@ export const listCourses = [
     nama: "Certificado Designer UX Google",
     desk: "Certificado Google High-Fidelity Designs and Prototypes",
     tools: ["Coursera", "Design", "UX/UI", "Google"],
-    dad: "1200",
+    dad: "500",
     link: "https://www.coursera.org/account/accomplishments/verify/EF4KMFZWKBE3" ,
   },
   {
@@ -255,7 +255,7 @@ export const listCourses = [
     nama: "Certificado Scrum Master",
     desk: "Certificado Fundamentos Scrum",
     tools: ["Soylíder.net", "Scrum", "Liderazgo"],
-    dad: "1300",
+    dad: "600",
     link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
   },
   {
@@ -264,16 +264,16 @@ export const listCourses = [
     nama: "Progreso Microsoft",
     desk: "Progreso en Microsoft Analisis de Datos",
     tools: ["Microsoft", "Python", "Azure", "Power Bi"],
-    dad: "1400",
+    dad: "700",
     link: "https://learn.microsoft.com/es-es/users/danielquiguango-0766/training" ,
   },
   {
     id: 8,
-    gambar: Courses7,
+    gambar: Courses8,
     nama: "Progreso Microsoft",
     desk: "Progreso en Microsoft con IA",
     tools: ["Microsoft", "Python", "IA", "Power Bi"],
-    dad: "1500",
+    dad: "800",
     link: "https://learn.microsoft.com/es-es/users/me/achievements#badges-section" ,
   },
 ];
