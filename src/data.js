@@ -183,6 +183,15 @@ export const listProyek = [
     dad: "600",
     link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=695-302&t=BDz4UMqLE8Lhgy5J-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043" ,
   },
+  {
+    id: 6,
+    gambar: Proyek6,
+    nama: "Portafolio Proyecto de Marketing",
+    desk: "Creación de post para una agencia de viajes con el propósito de atraer nuevos y antiguos clientes potenciales",
+    tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
+    dad: "700",
+    link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
+  },
 ];
 
 import Courses1 from "/assets/courses/Certification1.jpeg";
