@@ -199,6 +199,7 @@ import Courses2 from "/assets/courses/Certification2.jpeg";
 import Courses3 from "/assets/courses/Certification3.jpeg";
 import Courses4 from "/assets/courses/Certification4.jpeg";
 import Courses5 from "/assets/courses/Certification5.jpeg";
+import Courses9 from "/assets/courses/Certification7.png";
 import Courses6 from "/assets/courses/Certification6.jpg";
 import Courses7 from "/assets/courses/Progress1.png";
 import Courses8 from "/assets/courses/Progress2.png";
@@ -275,5 +276,14 @@ export const listCourses = [
     tools: ["Microsoft", "Python", "IA", "Power Bi"],
     dad: "800",
     link: "https://learn.microsoft.com/es-es/users/me/achievements#badges-section" ,
+  },
+  {
+    id: 9,
+    gambar: Courses9,
+    nama: "Certificado Liderazgo y 114 Habilidades Gerencial IA",
+    desk: "Progreso Diplomado en Liderazgo Gerencial",
+    tools: ["Liderazgo", "Equipo", "IA", "Administración"],
+    dad: "800",
+    link: "https://drive.google.com/file/d/12o_0P_EY6oMCwvOGCofvIDcPTVlm1z0a/view?usp=sharing" ,
   },
 ];
