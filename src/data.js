@@ -136,6 +136,8 @@ import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/marketing.png";
+import ProyekNew from "/assets/proyek/proyekNew.jpeg";
+import ProyekInventario from "/assets/proyek/proyekInventario.png";
 
 export const listProyek = [
   {
@@ -149,6 +151,15 @@ export const listProyek = [
   },
   {
     id: 2,
+    gambar: ProyekNew,
+    nama: "Website FreePass New",
+    desk: "Página marca Ecuatoriana de ropa hecha a mano",
+    tools: ["React", "TailwindCSS", "JS", "AOS"],
+    dad: "200",
+    link: "https://kiwiowndaniel27.github.io/FreePass.com/" ,
+  },
+  {
+    id: 3,
     gambar: Proyek2,
     nama: "Website Gamers Ecuador",
     desk: "Página de accesorios y productos Gamers para tu SetUp",
@@ -157,7 +168,7 @@ export const listProyek = [
     link: "https://kiwiowndaniel27.github.io/Gamers_Ecuador_Page_Oficial.github.io/gamers_ecuador_oficial.html" ,
   },
   {
-    id: 3,
+    id: 4,
     gambar: Proyek3,
     nama: "Web Black Diamond",
     desk: "Página de venta de accesorios góticos",
@@ -166,7 +177,7 @@ export const listProyek = [
     link: "https://kiwiowndaniel27.github.io/Page_Diamond_oficial_business.1.KiwiOwn.github.io/black_diamond_oficial.html" ,
   },
   {
-    id: 4,
+    id: 5,
     gambar: Proyek4,
     nama: "Prototipo App de Salud",
     desk: "Prototipo de alta fidelidad para una empresa de seguros",
@@ -175,7 +186,7 @@ export const listProyek = [
     link: "https://www.figma.com/proto/j3IIrdPLj4TMtRrd193VVY/Untitled?node-id=1-2&t=xmtMjPIcPu5FT1Cf-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2" ,
   },
   {
-    id: 5,
+    id: 6,
     gambar: Proyek5,
     nama: "Prototipo App Bancaria",
     desk: "Prototipo de alta fidelidad para una opción de Pets para una App Bancaria",
@@ -184,12 +195,21 @@ export const listProyek = [
     link: "https://www.figma.com/proto/K9afIZTA5inFuiy5K6XOgQ/Untitled?node-id=695-302&t=BDz4UMqLE8Lhgy5J-0&scaling=scale-down&content-scaling=fixed&page-id=285%3A1043" ,
   },
   {
-    id: 6,
+    id: 7,
+    gambar: ProyekInventario,
+    nama: "Prototipo App Inventario",
+    desk: "Prototipo de alta fidelidad para una App de Inventario de Negocios",
+    tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
+    dad: "700",
+    link: "https://www.figma.com/proto/j3IIrdPLj4TMtRrd193VVY/Untitled?node-id=306-17&p=f&t=5JlJYyqUyqlJCFql-0&scaling=scale-down&content-scaling=fixed&page-id=304%3A2&starting-point-node-id=306%3A17" ,
+  },
+  {
+    id: 8,
     gambar: Proyek6,
     nama: "Portafolio Proyecto de Marketing",
     desk: "Creación de post para una agencia de viajes con el propósito de atraer nuevos y antiguos clientes potenciales",
     tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
-    dad: "700",
+    dad: "800",
     link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
   },
 ];
