@@ -201,7 +201,7 @@ export const listProyek = [
     desk: "Prototipo de alta fidelidad para una App de Inventario de Negocios",
     tools: ["Figma", "Canva", "Adobe illustrator", "UI/UX"],
     dad: "700",
-    link: "https://www.figma.com/proto/j3IIrdPLj4TMtRrd193VVY/Untitled?node-id=306-17&p=f&t=5JlJYyqUyqlJCFql-0&scaling=scale-down&content-scaling=fixed&page-id=304%3A2&starting-point-node-id=306%3A17" ,
+    link: "https://www.figma.com/proto/j3IIrdPLj4TMtRrd193VVY/Untitled?node-id=523-357&t=JQlYIRcJpgIWtNUN-0&scaling=scale-down&content-scaling=fixed&page-id=523%3A356&starting-point-node-id=523%3A357&show-proto-sidebar=1" ,
   },
   {
     id: 8,
