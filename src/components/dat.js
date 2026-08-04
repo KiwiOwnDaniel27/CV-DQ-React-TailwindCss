@@ -5,3 +5,4 @@ const Imag = {
 };
 
 export default Imag;
+

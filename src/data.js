@@ -223,6 +223,7 @@ import Courses9 from "/assets/courses/Certification7.png";
 import Courses6 from "/assets/courses/Certification6.jpg";
 import Courses7 from "/assets/courses/Progress1.png";
 import Courses8 from "/assets/courses/Progress2.png";
+import { img } from "motion/react-client";
 
 export const listCourses = [
   {
@@ -307,3 +308,12 @@ export const listCourses = [
     link: "https://drive.google.com/file/d/12o_0P_EY6oMCwvOGCofvIDcPTVlm1z0a/view?usp=sharing" ,
   },
 ];
+
+
+import perfil from "/assets/perfil.webp";
+
+export const perfil1 = [
+  {
+    img:perfil,
+  } 
+]
