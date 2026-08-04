@@ -35,7 +35,7 @@ const Navbar = () => {
         <ul className={`menu flex items-center sm:gap-10 gap-12 md:gap-13 md:static fixed left-1/2 -translate-x-1/2 md:-translate-x-1
         md:opacity-100 bg-white/30  backdrop-blur-md p-4 md:rounded-br-2xl md:rounded-bl-2xl mt-146 h-23 w-full md:mt-0 md:h-0 md:w-100
         md:bg-transparent transition-all md:transition-none z-40 ${active ? "top-0 opacity-100" : 
-        "top-21 opacity-100 border-t border-gray-600"}`}>
+        "top-21 opacity-100 border-t-3 border-gray-600"}`}>
             <li>
                 <a href="#acercade">
                 <img src={Perfil.PerfilImage} alt="" className="w-10 h-10" />
