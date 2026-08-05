@@ -55,14 +55,14 @@ function App() {
       <>
         <div className="hero grid md:grid-cols-2 items-center pt-10 xl:gap-0 gap-6 grid-cols-1 -mt-9">
           <div className="animate__animated animate__fadeInUp animate__delay-3s">
-            <div className="flex items-center gap-3 mb-6 bg bg-zinc-800 w-fit p-4 rounded-2xl">
+            <div className="flex items-center gap-3 mb-6 bg bg-green-600 dark:bg-zinc-800 w-fit p-4 rounded-2xl">
               <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md load" loading="lazy" />
               <q>Cv Código de perseverancia. 🦉</q>
             </div>
 
             <h1 className="text-4xl/tight font-bold mb-6">Hola, Soy Daniel Quiguango</h1>
 
-            <p className="text-base/loose bm-9 opacity-50 ">
+            <p className="text-base/loose bm-9 opacity-100 ">
               Tengo interés en el areá de las tecnologías de la información, especificamente en el campo de
               programación y en el diseño Ux, especialmente en la realización de proyectos de páginas web
               para pequeñas y grandes empresas, llevo de experiencia 3 años en este campo.
@@ -79,11 +79,11 @@ function App() {
             </div>
 
           </div>
-          <img src={DataImage.HeroImage} alt="Hero Image" className="rounded-b-full w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
+          <img src={DataImage.HeroImage} alt="Hero Image" className="rounded-b-full w-96 md:ml-auto animate__animated animate__fadeInUp animate__delay-4s" loading="lazy" />
         </div>
 
         <div className="about mt-32 py-10" id="acercade">
-          <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg"
+          <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-green-600 dark:bg-zinc-800 rounded-lg"
             data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <img src={DatImag.LogoImage} alt="" className="w-23 rounded-md sm:hidden" loading="lazy" />
             <p className="text-base/loose mb-10">Hola, me presento, Soy Daniel Quiguango, desarrollador web Jr especializado en diseño UX/UI
@@ -122,7 +122,7 @@ function App() {
             <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
 
               {listTools.map((tool) => (
-                <div className=" flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} data-aos-once="true">
+                <div className=" flex items-center gap-2 p-3 border bg-green-600 dark:bg-zinc-800 rounded-md hover:bg-zinc-800 group" key={tool.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tool.dad} data-aos-once="true">
                   <img src={tool.gambar} alt="Tools Image" className="w-14 bg-zinc-800 p-1 grouphover:bg-zinc-900" />
                   <div>
                     <h4 className="font-bold">{tool.nama}</h4>
@@ -148,7 +148,7 @@ function App() {
             <Slider {...settings}>
               {listProyek.map((proyek) => (
                 <div key={proyek.id} className="p-3">
-                  <div className="p-6 bg-zinc-700 rounded-md" data-aos="fade-up" data-aos-duration="1000"
+                  <div className="p-6 bg-green-600 dark:bg-zinc-800 rounded-md" data-aos="fade-up" data-aos-duration="1000"
                     data-aos-delay={proyek.dad} data-aos-once="true">
                     <img src={proyek.gambar} alt=" Proyect Image" loading="lazy" />
                     <div>
@@ -160,7 +160,7 @@ function App() {
                       </p>
                       <div className="flex flex-wrap gap-3">
                         {proyek.tools.map((tool, index) => (
-                          <p className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold" key={index}>{tool}</p>
+                          <p className="py-1 px-3 border border-white bg-green-600 dark:border-zinc-500 dark:bg-zinc-600  rounded-md font-semibold" key={index}>{tool}</p>
                         ))}
                       </div>
                       <div className="mt-8 text-center">
@@ -199,7 +199,7 @@ function App() {
               {listCourses.map((courses) => (
                 <div key={courses.id} className="p-3">
                   <div
-                    className="p-6 bg-zinc-700 rounded-md"
+                    className="p-6 bg-green-600 dark:bg-zinc-800 rounded-md"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay={courses.dad}
@@ -212,7 +212,7 @@ function App() {
                       <div className="flex flex-wrap gap-3">
                         {courses.tools.map((tool, index) => (
                           <p
-                            className="py-1 px-3 border border-zinc-500 bg-zinc-600 rounded-md font-semibold"
+                            className="py-1 px-3 border border-white bg-green-600 dark:border-zinc-500 dark:bg-zinc-600 rounded-md font-semibold"
                             key={index}
                           >
                             {tool}
@@ -245,25 +245,25 @@ function App() {
             data-aos-delay="500" data-aos-once="true"> Conéctate Conmigo </p>
 
           <form action="https://formsubmit.co/daquiguango@espe.edu.ec" method="POST"
-            className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up"
+            className="bg-green-600 dark:bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-md" autoComplete="off" data-aos="fade-up"
             data-aos-duration="1000" data-aos-delay="800" data-aos-once="true">
 
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
                 <label className="font-semibold">Nombre Completo</label>
-                <input type="text" name="Nombre" placeholder="Introduce tu nombre..." className="border border-zinc-500 p-2 rounded-md" required />
+                <input type="text" name="Nombre" placeholder="Introduce tu nombre..." className="border border-black dark:border-zinc-500 p-2 rounded-md" required />
               </div>
               <div className="flex flex-col gap-2">
                 <label className="font-semibold">Email</label>
-                <input type="email" name="Email" placeholder="Introduce tu correo..." className="border border-zinc-500 p-2 rounded-md" required />
+                <input type="email" name="Email" placeholder="Introduce tu correo..." className="border border-black dark:border-zinc-500 p-2 rounded-md" required />
               </div>
               <div className="flex flex-col gap-2">
                 <label htmlFor="pesan" className="font-semibold">Mensaje:</label>
                 <textarea name="Mensaje" id="pesan" cols="45" rows="7" placeholder="Deja tu mensaje..."
-                  className="border border-zinc-500 p-2 rounded-md" required></textarea>
+                  className="border border-black dark:border-zinc-500 p-2 rounded-md" required></textarea>
               </div>
               <div className="text-center">
-                <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600">Enviar Mensaje</button>
+                <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-black dark:border-zinc-500 hover:bg-violet-600">Enviar Mensaje</button>
               </div>
             </div>
           </form>

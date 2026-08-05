@@ -1,7 +1,7 @@
 import SkillImage from "/assets/skills.webp";
 
-const Skills = {
+const Skill = {
     SkillImage,
 };
 
-export default Skills;
+export default Skill;

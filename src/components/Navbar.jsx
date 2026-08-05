@@ -4,6 +4,7 @@ import Perfil from "./perfil";
 import Skill from "./Skills";
 import Project from "./projects";
 import Contact from "./contact";
+import DarkMode from "./DarkMode";
 
 
 const Navbar = () => {
@@ -27,8 +28,8 @@ const Navbar = () => {
 
     return <div className="navbar py-7 flex items-center justify-between" id="inicio">
         <div className="logo">
-            <h1 className="text-3xl font-bold text-white p-1 md:bg-transparent
-            md:text-white flex items-center">Portafolio
+            <h1 className="text-3xl font-bold p-1 md:bg-transparent
+            text-black dark:text-white flex items-center">Portafolio
             <img src={DatImag.LogoImage} alt="" className="w-12 mx-6 rounded-md"/>
             </h1>
         </div>
@@ -61,7 +62,7 @@ const Navbar = () => {
                 <a href="#contact" className=" sm:text-1g text-base font-medium">Contacto</a>
             </li>
         </ul>
-        
+        <DarkMode/>
     </div>;
 };
 
