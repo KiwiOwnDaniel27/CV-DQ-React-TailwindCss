@@ -164,7 +164,7 @@ function App() {
                         ))}
                       </div>
                       <div className="mt-8 text-center">
-                        <a href={proyek.link} target="_blank" rel="noreferrer" className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Website</a>
+                        <a href={proyek.link} target="_blank" rel="noreferrer" className=" text-white bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Website</a>
                       </div>
                     </div>
                   </div>
@@ -224,7 +224,7 @@ function App() {
                           href={courses.link}
                           target="_blank"
                           rel="noreferrer"
-                          className="bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
+                          className="text-white bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600"
                         >
                           Website
                         </a>
@@ -263,7 +263,7 @@ function App() {
                   className="border border-black dark:border-zinc-500 p-2 rounded-md" required></textarea>
               </div>
               <div className="text-center">
-                <button type="submit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-black dark:border-zinc-500 hover:bg-violet-600">Enviar Mensaje</button>
+                <button type="submit" className="text-white bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-black dark:border-zinc-500 hover:bg-violet-600">Enviar Mensaje</button>
               </div>
             </div>
           </form>
