@@ -74,8 +74,8 @@ function App() {
             </p>
             <br />
             <div className="flex items-center sm:gap-9 gap-12">
-              <a href="https://drive.google.com/file/d/1ndaRxgsIhcNWOXj-KKY9i0MQphTJic1n/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600">Descargar CV <i className="ri-download-line ri-lg"></i> </a>
-              <a href="#project" className="bg-green-700 p-4 rounded-2xl hover:bg-green-600">Ver Proyectos <i className="ri-arrow-down-line ri-lg"></i> </a>
+              <a href="https://drive.google.com/file/d/1ndaRxgsIhcNWOXj-KKY9i0MQphTJic1n/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600 text-white">Descargar CV <i className="ri-download-line ri-lg"></i> </a>
+              <a href="#project" className="bg-green-700 p-4 rounded-2xl hover:bg-green-600 text-white">Ver Proyectos <i className="ri-arrow-down-line ri-lg"></i> </a>
             </div>
 
           </div>
@@ -85,7 +85,7 @@ function App() {
         <div className="about mt-32 py-10" id="acercade">
           <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-green-600 dark:bg-zinc-800 rounded-lg"
             data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            <img src={DatImag.LogoImage} alt="" className="w-23 rounded-md sm:hidden" loading="lazy" />
+            <img src={DatImag.LogoImage} alt="" className="w-19 mb-3 md:mb-0 md:w-23 rounded-md sm:hidden" loading="lazy" />
             <p className="text-base/loose mb-10">Hola, me presento, Soy Daniel Quiguango, desarrollador web Jr especializado en diseño UX/UI
               y en creación de productos digitales. Estoy muy consiente que el diseño y la funcionalidad de una
               página web o App deben ir muy de la mano con la experiencia del Usuario, y que está sea óptima,
@@ -126,7 +126,7 @@ function App() {
                   <img src={tool.gambar} alt="Tools Image" className="w-14 bg-zinc-800 p-1 grouphover:bg-zinc-900" />
                   <div>
                     <h4 className="font-bold">{tool.nama}</h4>
-                    <p className="opacity-50">{tool.ket}</p>
+                    <p className="opacity-80">{tool.ket}</p>
                   </div>
                 </div>
               ))}
@@ -251,16 +251,16 @@ function App() {
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
                 <label className="font-semibold">Nombre Completo</label>
-                <input type="text" name="Nombre" placeholder="Introduce tu nombre..." className="border border-black dark:border-zinc-500 p-2 rounded-md" required />
+                <input type="text" name="Nombre" placeholder="Introduce tu nombre..." className="border border-black dark:border-zinc-500 p-2 rounded-md text-white" required />
               </div>
               <div className="flex flex-col gap-2">
                 <label className="font-semibold">Email</label>
-                <input type="email" name="Email" placeholder="Introduce tu correo..." className="border border-black dark:border-zinc-500 p-2 rounded-md" required />
+                <input type="email" name="Email" placeholder="Introduce tu correo..." className="border border-black dark:border-zinc-500 p-2 rounded-md text-white" required />
               </div>
               <div className="flex flex-col gap-2">
                 <label htmlFor="pesan" className="font-semibold">Mensaje:</label>
                 <textarea name="Mensaje" id="pesan" cols="45" rows="7" placeholder="Deja tu mensaje..."
-                  className="border border-black dark:border-zinc-500 p-2 rounded-md" required></textarea>
+                  className="border border-black dark:border-zinc-500 p-2 rounded-md text-white" required></textarea>
               </div>
               <div className="text-center">
                 <button type="submit" className="text-white bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-black dark:border-zinc-500 hover:bg-violet-600">Enviar Mensaje</button>
