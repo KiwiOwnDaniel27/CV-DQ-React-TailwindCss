@@ -14,6 +14,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
+import './i18n';
 
 
 createRoot(document.getElementById('root')).render(

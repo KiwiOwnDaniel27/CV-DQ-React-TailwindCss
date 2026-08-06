@@ -25,13 +25,13 @@ const DarkMode = () => {
   };
 
   return (
-    <div className="relative flex items-center justify-center w-19 h-11 cursor-pointer shrink-0 -ml-120">
+    <div className="relative flex items-center justify-center w-19 h-11 cursor-pointer shrink-0 -ml-120 md:-mt-9">
       {/* Ícono de Modo Claro */}
       <img
         src={moodLuzImg}
         alt="Modo Claro"
         onClick={toggleTheme}
-        className={`w-full h-full object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] transition-opacity duration-300 absolute ${
+        className={`-mt-6 md:mt-0 ml-0 md:ml-23 w-full h-full object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] transition-opacity duration-300 absolute ${
           theme === "dark" ? "opacity-0 pointer-events-none" : "opacity-100"
         }`}
       />
@@ -41,7 +41,7 @@ const DarkMode = () => {
         src={moodDarkImg}
         alt="Modo Oscuro"
         onClick={toggleTheme}
-        className={`w-full h-full object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] transition-opacity duration-300 absolute ${
+        className={`-mt-6 md:mt-0 ml-0 md:ml-23 w-full h-full object-contain drop-shadow-[0_2px_4px_rgba(0,0,0,0.3)] transition-opacity duration-300 absolute ${
           theme === "dark" ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
       />
