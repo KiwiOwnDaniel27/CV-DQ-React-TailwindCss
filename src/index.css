@@ -8,3 +8,12 @@
     font-family: "Poppins", sans-serif;
   }
 }
+
+input::placeholder {
+  color: #fff; 
+  opacity: 1; 
+}
+
+.dark input::placeholder {
+  color: #bab5b5;
+}

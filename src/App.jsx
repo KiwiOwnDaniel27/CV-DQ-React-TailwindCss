@@ -70,10 +70,10 @@ export default function App() {
                 className="w-10 rounded-md load"
                 loading="lazy"
               />
-              <q>{t("hero_motto")}</q>
+              <q className="text-white">{t("hero_motto")}</q>
             </div>
 
-            <h1 className="text-4xl/tight font-bold mb-6">
+            <h1 className="text-4xl/tight font-bold mb-6 ">
               {t("hero_greeting")}
             </h1>
 
@@ -123,7 +123,7 @@ export default function App() {
               className="w-19 mb-3 md:mb-0 md:w-23 rounded-md sm:hidden"
               loading="lazy"
             />
-            <p className="text-base/loose mb-10">{t("about_text")}</p>
+            <p className="text-base/loose mb-10 text-white">{t("about_text")}</p>
 
             <div className="flex items-center justify-between">
               <img
@@ -184,7 +184,7 @@ export default function App() {
                   />
                   <div>
                     <h4 className="font-bold">{tool.nama}</h4>
-                    <p className="opacity-80">{tool.ket}</p>
+                    <p className="opacity-80 text-white">{tool.ket}</p>
                   </div>
                 </div>
               ))}
@@ -227,7 +227,7 @@ export default function App() {
                       <h1 className="text-2xl font-bold my-4">
                         {proyek.nama}
                       </h1>
-                      <p className="text-base/loose mb-4">{proyek.desk}</p>
+                      <p className="text-base/loose mb-4 text-white">{proyek.desk}</p>
                       <div className="flex flex-wrap gap-3">
                         {proyek.tools.map((tool, index) => (
                           <p
@@ -289,7 +289,7 @@ export default function App() {
                     <img src={courses.gambar} alt="Proyect Image" loading="lazy" />
                     <div>
                       <h1 className="text-2xl font-bold my-4">{courses.nama}</h1>
-                      <p className="text-base/loose mb-4">{courses.desk}</p>
+                      <p className="text-base/loose mb-4 text-white">{courses.desk}</p>
                       <div className="flex flex-wrap gap-3">
                         {courses.tools.map((tool, index) => (
                           <p
@@ -350,7 +350,7 @@ export default function App() {
           >
             <div className="flex flex-col gap-6">
               <div className="flex flex-col gap-2">
-                <label className="font-semibold">{t("form_name_label")}</label>
+                <label className="font-semibold text-white">{t("form_name_label")}</label>
                 <input
                   type="text"
                   name="Nombre"
@@ -360,7 +360,7 @@ export default function App() {
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <label className="font-semibold">{t("form_email_label")}</label>
+                <label className="font-semibold text-white">{t("form_email_label")}</label>
                 <input
                   type="email"
                   name="Email"
@@ -370,7 +370,7 @@ export default function App() {
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <label htmlFor="pesan" className="font-semibold">
+                <label htmlFor="pesan" className="font-semibold text-white">
                   {t("form_msg_label")}
                 </label>
                 <textarea
@@ -379,7 +379,7 @@ export default function App() {
                   cols="45"
                   rows="7"
                   placeholder={t("form_msg_ph")}
-                  className="border border-black dark:border-zinc-500 p-2 rounded-md text-white"
+                  className="border border-black dark:border-zinc-500 p-2 rounded-md text-white placeholder-white dark:placeholder-[#bab5b5]"
                   required
                 ></textarea>
               </div>
