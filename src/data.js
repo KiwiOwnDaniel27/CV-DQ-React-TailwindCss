@@ -136,6 +136,8 @@ import Proyek3 from "/assets/proyek/proyek3.webp";
 import Proyek4 from "/assets/proyek/proyek4.webp";
 import Proyek5 from "/assets/proyek/proyek5.webp";
 import Proyek6 from "/assets/proyek/marketing.png";
+import Proyek7 from "/assets/proyek/proyek6.png";
+import Proyek8 from "/assets/proyek/proyek7.png";
 import ProyekNew from "/assets/proyek/proyekNew.jpeg";
 import ProyekInventario from "/assets/proyek/proyekInventario.png";
 
@@ -211,6 +213,24 @@ export const listProyek = [
     tools: ["Canva", "Adobe illustrator", "UI/UX"],
     dad: "800",
     link: "https://www.canva.com/design/DAG3CNeiQ4s/lRuMLWAoq9xt5fZvZ0b9JQ/edit?ui=e30" ,
+  },
+  {
+    id: 9,
+    gambar: Proyek7,
+    nama: "Pagina Web area de medicina",
+    desk: "Portafolio para vendedores de seguros médicos - prospección de nuevos clientes.",
+    tools: ["React", "Tailwind", "UI/UX", "API"],
+    dad: "800",
+    link: "https://kiwiowndaniel27.github.io/TuSaludsaBoss.com/" ,
+  },
+  {
+    id: 10,
+    gambar: Proyek8,
+    nama: "Pagina Web para el area de arte",
+    desk: "Portafolio de artistas y presentaciones.",
+    tools: ["React", "Tailwind", "UI/UX"],
+    dad: "800",
+    link: "https://kiwiowndaniel27.github.io/JUGGLING_MARCOS_OFICIAL_PORTFOLIO/" ,
   },
 ];
 
